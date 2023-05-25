@@ -34,7 +34,7 @@ const App: React.FC = () => {
       <form onSubmit={handleSubmit} className="form">
         <input
           type="text"
-          value={username}
+          value={username.trim()}
           onChange={(e) => setUsername(e.target.value)}
           placeholder="Enter GitHub username"
           className="input"
@@ -45,7 +45,7 @@ const App: React.FC = () => {
       </form>
 
       {loading && <p>Loading...</p>}
-      {error && <p>Error: {error.message}</p>}
+      {error && !data && username !== "" && <p>Error: {error.message}</p>}
 
       <div className="result-container">
         {data?.user.repositories.nodes.map((repository) => (

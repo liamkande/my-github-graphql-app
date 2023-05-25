@@ -21,8 +21,8 @@ This is a simple React app that allows you to search for GitHub repositories usi
 
 To get started with the Course Directory Web App, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/course-directory-web-app.git`
-2. Navigate to the project directory: `cd course-directory-web-app`
+1. Clone the repository: `https://github.com/liamkande/my-github-graphql-app.git`
+2. Navigate to the project directory: `cd my-github-graphql-app`
 3. Install the dependencies: `yarn install`
 4. Start the application: `yarn start`
 5. Open your web browser and visit: `http://localhost:3000`

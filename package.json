@@ -41,5 +41,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "My GitHub GraphQL App",
+  "main": "index.js",
+  "repository": "https://github.com/liamkande/my-github-graphql-app.git",
+  "author": "Liam Ansoumane Kande",
+  "homepage": ".",
+  "license": "MIT"
 }
